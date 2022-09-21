@@ -14,6 +14,8 @@
 		6DBCB0BB28DB352E0092EC57 /* OrientationHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB0BA28DB352E0092EC57 /* OrientationHackTests.swift */; };
 		6DBCB0C528DB352E0092EC57 /* OrientationHackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB0C428DB352E0092EC57 /* OrientationHackUITests.swift */; };
 		6DBCB0C728DB352E0092EC57 /* OrientationHackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB0C628DB352E0092EC57 /* OrientationHackUITestsLaunchTests.swift */; };
+		6DBCB0D728DB36610092EC57 /* PencilKitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB0D628DB36610092EC57 /* PencilKitTest.swift */; };
+		6DBCB0D928DB36710092EC57 /* STest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB0D828DB36710092EC57 /* STest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		6DBCB0C028DB352E0092EC57 /* OrientationHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrientationHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DBCB0C428DB352E0092EC57 /* OrientationHackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationHackUITests.swift; sourceTree = "<group>"; };
 		6DBCB0C628DB352E0092EC57 /* OrientationHackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationHackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DBCB0D328DB35A90092EC57 /* OrientationHack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrientationHack.entitlements; sourceTree = "<group>"; };
+		6DBCB0D628DB36610092EC57 /* PencilKitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitTest.swift; sourceTree = "<group>"; };
+		6DBCB0D828DB36710092EC57 /* STest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,9 @@
 		6DBCB0A828DB352D0092EC57 /* OrientationHack */ = {
 			isa = PBXGroup;
 			children = (
+				6DBCB0D528DB36310092EC57 /* PencilKitTab */,
+				6DBCB0D428DB360E0092EC57 /* SuggestionTab */,
+				6DBCB0D328DB35A90092EC57 /* OrientationHack.entitlements */,
 				6DBCB0A928DB352D0092EC57 /* OrientationHackApp.swift */,
 				6DBCB0AB28DB352D0092EC57 /* ContentView.swift */,
 				6DBCB0AD28DB352E0092EC57 /* Assets.xcassets */,
@@ -125,6 +133,22 @@
 				6DBCB0C628DB352E0092EC57 /* OrientationHackUITestsLaunchTests.swift */,
 			);
 			path = OrientationHackUITests;
+			sourceTree = "<group>";
+		};
+		6DBCB0D428DB360E0092EC57 /* SuggestionTab */ = {
+			isa = PBXGroup;
+			children = (
+				6DBCB0D828DB36710092EC57 /* STest.swift */,
+			);
+			path = SuggestionTab;
+			sourceTree = "<group>";
+		};
+		6DBCB0D528DB36310092EC57 /* PencilKitTab */ = {
+			isa = PBXGroup;
+			children = (
+				6DBCB0D628DB36610092EC57 /* PencilKitTest.swift */,
+			);
+			path = PencilKitTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DBCB0D728DB36610092EC57 /* PencilKitTest.swift in Sources */,
+				6DBCB0D928DB36710092EC57 /* STest.swift in Sources */,
 				6DBCB0AC28DB352D0092EC57 /* ContentView.swift in Sources */,
 				6DBCB0AA28DB352D0092EC57 /* OrientationHackApp.swift in Sources */,
 			);
@@ -414,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OrientationHack/OrientationHack.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OrientationHack/Preview Content\"";
@@ -443,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OrientationHack/OrientationHack.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OrientationHack/Preview Content\"";
