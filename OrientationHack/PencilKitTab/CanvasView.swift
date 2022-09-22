@@ -24,6 +24,21 @@ struct CanvasView: View {
         
         VStack{
             
+            Spacer()
+            
+            Text("Draw Your Achievement!")
+                .font(Font.system(size: 40, weight: .bold))
+                    .multilineTextAlignment(.center)
+                    .foregroundStyle(
+
+                        LinearGradient(
+                            colors: [.purple, .blue, .green, .orange ,.red],
+                            startPoint: .leading,
+                            endPoint: .trailing
+                        )
+                    )
+            
+            
             Canvas {context, size in
                 
                 for line in lines {
@@ -43,6 +58,7 @@ struct CanvasView: View {
                     self.currentLine = Line(points: [], color: currentLine.color, lineWidth: thickness)
                 })
                 )
+            
         }
         
     }
