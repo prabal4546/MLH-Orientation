@@ -24,7 +24,6 @@ struct CanvasView: View {
         
         VStack{
             
-            Spacer()
             
             Text("Draw Your Achievement!")
                 .font(Font.system(size: 40, weight: .bold))
@@ -39,6 +38,8 @@ struct CanvasView: View {
                     )
             
             
+            
+            
             Canvas {context, size in
                 
                 for line in lines {
@@ -47,7 +48,10 @@ struct CanvasView: View {
                                     context.stroke(path, with: .color(line.color), lineWidth: line.lineWidth)
                                 }
                 
-            }.gesture(DragGesture(minimumDistance: 0, coordinateSpace: .local)
+            }
+            .frame(width: 300, height: 400, alignment: .center)
+            .border(.red)
+            .gesture(DragGesture(minimumDistance: 0, coordinateSpace: .local)
                 .onChanged({ value in
                     let newPoint = value.location
                     currentLine.points.append(newPoint)
