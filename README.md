@@ -34,7 +34,7 @@
 # Libraries📒
 - SwiftUI
 - Charts
-- PencilKi
+- PencilKit
 
 # What's next? 📱
 
