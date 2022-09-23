@@ -47,7 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6DB72C9928DB3C7500A46B35 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		6DB72C9B28DB3F1500A46B35 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		6DB72CBA28DC5BC600A46B35 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		6DB72CBC28DC744500A46B35 /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
@@ -110,7 +109,6 @@
 		6DB72CB928DC5B4400A46B35 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6DB72C9928DB3C7500A46B35 /* HomeView.swift */,
 				6DB72CBA28DC5BC600A46B35 /* Home.swift */,
 				6DB72CC328DC7CD200A46B35 /* LineChartView.swift */,
 			);
