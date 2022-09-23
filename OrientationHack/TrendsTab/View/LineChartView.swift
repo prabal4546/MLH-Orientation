@@ -8,26 +8,6 @@
 import SwiftUI
 import Charts
 
-//struct LineChartView:View{
-//    @ObservedObject var homeViewModel:HomeViewModel = HomeViewModel()
-//    var body: some View{
-//        if let coins = homeViewModel.coins, let coin = homeViewModel.currentCoin{
-//            Chart{
-//                ForEach(coins) { coin in
-//                    LineMark(x: .value("hour", coin.last_7days_price.price), y: .value("", coin.price_change))
-//                }
-//            }
-//        }
-//    }
-//}
-
-
-//struct LineChartView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        LineChartView()
-//    }
-//}
-
 
 // MARK: LINE GRAPH
 struct LineGraph: View {
