@@ -17,6 +17,18 @@
 ![Badge](https://img.shields.io/badge/Xcode-14.0-green)
 ![badge](https://img.shields.io/badge/Swift-5-red)
 
+## Requirements to Run 🚩
+- Xcode 14
+- Swift 5+
+
+# How to run ?⚙️
+
+* Clone or download the app from this repository. 👩‍💻
+* Open project file in terminal. 💻
+* Open ```OrientationHack.xcodeproj``` in the app folder. 💾
+* Change the bundle identifier. ⚙️
+* Press Ctrl + R to run the app. 📲
+
 # Tech Stacks 🖥
 
 <table>
