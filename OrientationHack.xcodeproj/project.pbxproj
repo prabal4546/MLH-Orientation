@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		6DB72C9A28DB3C7500A46B35 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB72C9928DB3C7500A46B35 /* HomeView.swift */; };
 		6DB72C9C28DB3F1500A46B35 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB72C9B28DB3F1500A46B35 /* CanvasView.swift */; };
+		6DB72CBB28DC5BC600A46B35 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB72CBA28DC5BC600A46B35 /* Home.swift */; };
+		6DB72CBD28DC744500A46B35 /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB72CBC28DC744500A46B35 /* CryptoModel.swift */; };
+		6DB72CC028DC763D00A46B35 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB72CBF28DC763D00A46B35 /* HomeViewModel.swift */; };
+		6DB72CC228DC799700A46B35 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB72CC128DC799700A46B35 /* Constants.swift */; };
+		6DB72CC428DC7CD200A46B35 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB72CC328DC7CD200A46B35 /* LineChartView.swift */; };
 		6DBCB0AA28DB352D0092EC57 /* OrientationHackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB0A928DB352D0092EC57 /* OrientationHackApp.swift */; };
 		6DBCB0AC28DB352D0092EC57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB0AB28DB352D0092EC57 /* ContentView.swift */; };
 		6DBCB0AE28DB352E0092EC57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBCB0AD28DB352E0092EC57 /* Assets.xcassets */; };
@@ -17,8 +22,11 @@
 		6DBCB0C528DB352E0092EC57 /* OrientationHackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB0C428DB352E0092EC57 /* OrientationHackUITests.swift */; };
 		6DBCB0C728DB352E0092EC57 /* OrientationHackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB0C628DB352E0092EC57 /* OrientationHackUITestsLaunchTests.swift */; };
 		6DBCB0D728DB36610092EC57 /* PencilKitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB0D628DB36610092EC57 /* PencilKitTest.swift */; };
+
+
 		6DBCB0D928DB36710092EC57 /* STest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB0D828DB36710092EC57 /* STest.swift */; };
 		8868404128DB6090009B00CE /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8868404028DB6090009B00CE /* ImagePickerView.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +49,11 @@
 /* Begin PBXFileReference section */
 		6DB72C9928DB3C7500A46B35 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		6DB72C9B28DB3F1500A46B35 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		6DB72CBA28DC5BC600A46B35 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		6DB72CBC28DC744500A46B35 /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
+		6DB72CBF28DC763D00A46B35 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		6DB72CC128DC799700A46B35 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6DB72CC328DC7CD200A46B35 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
 		6DBCB0A628DB352D0092EC57 /* OrientationHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrientationHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DBCB0A928DB352D0092EC57 /* OrientationHackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationHackApp.swift; sourceTree = "<group>"; };
 		6DBCB0AB28DB352D0092EC57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,8 +66,11 @@
 		6DBCB0C628DB352E0092EC57 /* OrientationHackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationHackUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6DBCB0D328DB35A90092EC57 /* OrientationHack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrientationHack.entitlements; sourceTree = "<group>"; };
 		6DBCB0D628DB36610092EC57 /* PencilKitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitTest.swift; sourceTree = "<group>"; };
+
+
 		6DBCB0D828DB36710092EC57 /* STest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STest.swift; sourceTree = "<group>"; };
 		8868404028DB6090009B00CE /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +98,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DB72CB828DC5B3D00A46B35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DB72CBC28DC744500A46B35 /* CryptoModel.swift */,
+				6DB72CC128DC799700A46B35 /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DB72CB928DC5B4400A46B35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DB72C9928DB3C7500A46B35 /* HomeView.swift */,
+				6DB72CBA28DC5BC600A46B35 /* Home.swift */,
+				6DB72CC328DC7CD200A46B35 /* LineChartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6DB72CBE28DC75BC00A46B35 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6DB72CBF28DC763D00A46B35 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		6DBCB09D28DB352D0092EC57 = {
 			isa = PBXGroup;
 			children = (
@@ -106,7 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				6DBCB0D528DB36310092EC57 /* PencilKitTab */,
-				6DBCB0D428DB360E0092EC57 /* SuggestionTab */,
+				6DBCB0D428DB360E0092EC57 /* TrendsTab */,
 				6DBCB0D328DB35A90092EC57 /* OrientationHack.entitlements */,
 				6DBCB0A928DB352D0092EC57 /* OrientationHackApp.swift */,
 				6DBCB0AB28DB352D0092EC57 /* ContentView.swift */,
@@ -141,13 +184,14 @@
 			path = OrientationHackUITests;
 			sourceTree = "<group>";
 		};
-		6DBCB0D428DB360E0092EC57 /* SuggestionTab */ = {
+		6DBCB0D428DB360E0092EC57 /* TrendsTab */ = {
 			isa = PBXGroup;
 			children = (
-				6DBCB0D828DB36710092EC57 /* STest.swift */,
-				6DB72C9928DB3C7500A46B35 /* HomeView.swift */,
+				6DB72CBE28DC75BC00A46B35 /* ViewModel */,
+				6DB72CB928DC5B4400A46B35 /* View */,
+				6DB72CB828DC5B3D00A46B35 /* Model */,
 			);
-			path = SuggestionTab;
+			path = TrendsTab;
 			sourceTree = "<group>";
 		};
 		6DBCB0D528DB36310092EC57 /* PencilKitTab */ = {
@@ -291,12 +335,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DBCB0D728DB36610092EC57 /* PencilKitTest.swift in Sources */,
-				6DBCB0D928DB36710092EC57 /* STest.swift in Sources */,
+				6DB72CC428DC7CD200A46B35 /* LineChartView.swift in Sources */,
 				6DB72C9C28DB3F1500A46B35 /* CanvasView.swift in Sources */,
+				6DB72CBD28DC744500A46B35 /* CryptoModel.swift in Sources */,
+				6DB72CC028DC763D00A46B35 /* HomeViewModel.swift in Sources */,
 				6DBCB0AC28DB352D0092EC57 /* ContentView.swift in Sources */,
 				8868404128DB6090009B00CE /* ImagePickerView.swift in Sources */,
 				6DB72C9A28DB3C7500A46B35 /* HomeView.swift in Sources */,
+				6DB72CBB28DC5BC600A46B35 /* Home.swift in Sources */,
 				6DBCB0AA28DB352D0092EC57 /* OrientationHackApp.swift in Sources */,
+				6DB72CC228DC799700A46B35 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +507,8 @@
 				DEVELOPMENT_TEAM = U23VWM3L5A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location needed";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App requires your location for weather  ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -489,6 +539,8 @@
 				DEVELOPMENT_TEAM = U23VWM3L5A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location needed";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App requires your location for weather  ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
