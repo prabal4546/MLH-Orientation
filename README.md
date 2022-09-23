@@ -17,11 +17,14 @@
 ![Badge](https://img.shields.io/badge/Xcode-14.0-green)
 ![badge](https://img.shields.io/badge/Swift-5-red)
 
+## Glance 
+Quickly glance to see the price trends of popular cryptocurrencies and use our canvas to have a little fun!
+
 ## Requirements to Run 🚩
 - Xcode 14
 - Swift 5+
 
-# How to run ?⚙️
+## How to run ?⚙️
 
 * Clone or download the app from this repository. 👩‍💻
 * Open project file in terminal. 💻
@@ -29,7 +32,7 @@
 * Change the bundle identifier. ⚙️
 * Press Ctrl + R to run the app. 📲
 
-# Tech Stacks 🖥
+## Tech Stacks 🖥
 
 <table>
 <tr><td>
@@ -43,12 +46,12 @@
  
 </td></tr> </table>
  
-# Libraries📒
+## Libraries📒
 - SwiftUI
 - Charts
 - PencilKit
 
-# What's next? 📱
+## What's next? 📱
 
 With the upcoming releases we have thought of bringing various new features like:
 
