@@ -139,7 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				6DBCB0D528DB36310092EC57 /* PencilKitTab */,
-				6DBCB0D428DB360E0092EC57 /* SuggestionTab */,
+				6DBCB0D428DB360E0092EC57 /* TrendsTab */,
 				6DBCB0D328DB35A90092EC57 /* OrientationHack.entitlements */,
 				6DBCB0A928DB352D0092EC57 /* OrientationHackApp.swift */,
 				6DBCB0AB28DB352D0092EC57 /* ContentView.swift */,
@@ -174,14 +174,14 @@
 			path = OrientationHackUITests;
 			sourceTree = "<group>";
 		};
-		6DBCB0D428DB360E0092EC57 /* SuggestionTab */ = {
+		6DBCB0D428DB360E0092EC57 /* TrendsTab */ = {
 			isa = PBXGroup;
 			children = (
 				6DB72CBE28DC75BC00A46B35 /* ViewModel */,
 				6DB72CB928DC5B4400A46B35 /* View */,
 				6DB72CB828DC5B3D00A46B35 /* Model */,
 			);
-			path = SuggestionTab;
+			path = TrendsTab;
 			sourceTree = "<group>";
 		};
 		6DBCB0D528DB36310092EC57 /* PencilKitTab */ = {
