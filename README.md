@@ -54,5 +54,5 @@ With the upcoming releases we have thought of bringing various new features like
 
 I.   App Intent Support
 
-II.  We used a custom implementation of linegraph to add a grag gesture, that'll be done using native swift charts. 
+II.  We used a custom implementation of linegraph to add a drag gesture, that'll be done using native swift charts. 
 
