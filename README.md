@@ -16,3 +16,31 @@
 ![lines](https://img.shields.io/tokei/lines/github/prabal4546/MLH-Orientation)
 ![Badge](https://img.shields.io/badge/Xcode-14.0-green)
 ![badge](https://img.shields.io/badge/Swift-5-red)
+
+# Tech Stacks 🖥
+
+<table>
+<tr><td>
+
+| Tech Stacks | Logo |
+| -- | -- |
+| Xcode | ![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white) |
+| Swift | ![Swift](https://img.shields.io/badge/swift-%23FA7343.svg?style=for-the-badge&logo=swift&logoColor=white) |
+
+ </td><td> 
+ 
+</td></tr> </table>
+ 
+# Libraries📒
+- SwiftUI
+- Charts
+- PencilKi
+
+# What's next? 📱
+
+With the upcoming releases we have thought of bringing various new features like:
+
+I.   App Intent Support
+
+II.  We used a custom implementation of linegraph to add a grag gesture, that'll be done using native swift charts. 
+
